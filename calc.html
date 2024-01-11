@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/calc.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>BaironDev</h3>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="crono.html">Cronometro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Calculadora de Días</h1>
+            <form>
+                <label for="fecha1">Fecha 1:</label>
+                <input type="date" id="fecha1" required>
+                <br>
+                <label for="fecha2">Fecha 2:</label>
+                <input type="date" id="fecha2" required>
+                <br>
+                <div class="botones">
+                    <button type="button" id="calcularButton">Calcular</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 CronoCalc Web - Bairon Botero</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.min.js"></script>
+    <script src="js/calc.js"></script>
+</body>
+</html>
+
